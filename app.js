@@ -7,6 +7,7 @@ var app = express();
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 
+console.log('123');
 
 //配置跨域问题
 app.use(
